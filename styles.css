@@ -1,0 +1,202 @@
+body{
+    background: url(images/nz1.png) fixed;
+    margin:0;
+    font-size:16px;
+    margin-bottom:100px;
+
+}
+
+h1{
+    font-size: 45px;
+    float:right;
+}
+
+#sticky {
+    position:fixed;
+    top:0;
+    background: #eeeeee;
+    background: rgba(238,238,238,0,7);
+    width: 100%
+    
+}
+
+.mask{
+     background: url(images/nz1.png) fixed;
+    background-size:cover;
+     height:250px;
+
+
+}
+
+
+
+/* Layout*
+------------------------------------------------*/
+
+header,
+.container,
+footer {
+    margin:0 auto;
+    width:88%;
+    max-width:960px;
+    /*border: 1px solid deeppink;*/
+}
+
+.wrapper{
+    background:#fff;
+    padding:1em 0;
+    margin-bottom:50px;
+    opacity:.7;
+
+
+
+}
+
+#stickyfooter {
+    position:fixed;
+    bottom:0px;
+    background: #eeeeee;
+    background: rgba(238,238,238,0,7);
+    width: 100%;
+    height:50px;
+    z-index:100;
+}
+
+.headone{
+    display:inline-block;
+    margin-left:1em;
+}
+
+.mylogo{
+    margin:1em;
+    display:inline-block;
+    float:left
+}
+
+/* Navigation*
+------------------------------------------------*/
+
+/*nav ul {
+    padding:0;
+}
+
+nav ul li{
+    float: left;
+    margin-right: .5em;
+    list-style:none;
+ }
+
+nav ul li a{
+    background:#ccc;
+    padding: .5em 1em;
+    border-radius:16px 0;
+    transition: all 1s ease-in-out;
+}
+
+nav ul li a:hover{
+    background: pink;
+    border-radius:0 16px;
+
+}*/
+
+/* Misc.
+------------------------------------------*/
+
+.clearfix:after {
+    content:".";
+    display:block;
+    height: 0;
+    clear:both;
+    visibility:hidden;
+}
+
+/* Floats*
+------------------------------------------------*/
+
+.align-left{
+    float:left;
+    margin:1em 1em 1em 0;
+    /*border-radius:50%;*/
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter:none;
+    border-radius:50%;
+    transition: all 3s ease-in-out;
+    border: 3px solid #eee;
+
+}
+
+.align-left:hover{
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+    filter:none;
+}
+
+
+.align-right{
+    float:right;
+    margin: 1em 0em 1em 1em;
+    border-radius:50%;
+    border: 3px solid #eee;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter:none;
+}
+.align-right:hover{
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+    filter:none;
+}
+
+
+.align-right span{
+    background:url(images/Pattern copy.png);
+
+}
+
+
+.align-center{
+    margin:1em auto 0em;
+    border-radius:50%;
+    border: 3px solid #eee;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter:none;
+}
+.align-center:hover{
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+    filter:none;
+}
+
+.rotate:hover img {
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+    transition: all 3s ease-in-out;
+
+}
+
+.skew:hover img {
+    -webkit-transform:skew(-10deg);
+    -moz-transform:skew(-10deg);
+    -o-transform:skew(-10deg);
+    -ms-transform:skew(-10deg);
+    transform: skew(-10deg);
+    transition: all 3s ease-in-out;
+}
+
+.scale:hover img {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: all 3s ease-in-out;
+}
+
+.opacity:hover img{
+    opacity: .1;
+}
